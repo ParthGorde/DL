@@ -13,6 +13,7 @@ mpl.rcParams['figure.figsize'] = (10, 5)
 mpl.rcParams['axes.grid'] = False
 
 # Load the dataset from "ecg_final.txt"
+# !cat "/content/ECG5000_TRAIN.txt" "/content/ECG5000_TEST.txt" > ecg_final.txt 
 # Note: The dataset is assumed to be in the current working directory
 df = pd.read_csv("../ecg_final.txt", sep='  ', header=None, engine='python')
 
