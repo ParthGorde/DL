@@ -1,0 +1,65 @@
+
+ASS 5\
+
+nlp-is the ability of a computer program to understand human
+ language as it is spoken and written -- referred to 
+
+word embedding- represent words as vectors in a high-dimensional space, where words with similar meanings are closer to each other.
+
+YIELLD-.used to make generator functions and usually returns  objects.
+
+The Lambda layer -exists so that arbitrary expressions can be used as a Layer when constructing Sequential and Functional API models.\
+converts each word into a fixed-length vector of defined size.
+
+token- process of converting a sequence of text into smaller parts, known as tokens.
+
+cbow-input layer is used to represent the context words, the hidden layer is used to learn the word embeddings, and the output layer is
+ used to predict the target word
+.
+technique of word embediing -
+TF-IDF is a statistical measure used to tf idf freq-determine the significance of words in documents[2]. 
+
+1 hot encoding-each unique word in vocabulary by setting 1 rest 0 
+
+The window size is a parameter that determines the number of context words that should be considered before and after the target word
+
+CBOW-The input layer represents the context words in a sentence. The hidden layer learns the word embeddings. The output layer predicts the target word
+.
+embedded layer-used to convert the input sequence of tokens (such as words or subwords) into a continuous representation
+Ass 6
+
+transfer learning-the reuse of previously learn model on new prb
+
+ 
+
+Pre-trained neural network models- are  models previously trained on large dataset  and then used in a different task. 
+
+
+
+ADVANTAGE OF TRANSFER- saving training time, better performance 
+
+APPLICATION-Computer vision (CV) ...
+Emails. ...
+Neural networks. ...
+
+CATLTECH DATASET-The Caltech-101 dataset is a widely used dataset for object recognition tasks, containing around 9,000 images 
+ images built upon the backbone of the WordNet structure
+
+TRANSFER STEPS-DEVELOPE MODEL  Training a Model to Reuse it · 2. Using a Pre-Trained Model · 3. Feature Extraction · Popular Pre-Trained Models. 
+
+DATA AUGUMENTATION-a technique of increasing SIZE OF the training set by creating modified copies of a dataset using existing data.
+
+USE OF DATA AUGUMENATION IN TRANSFER-In transfer learning, data augmentation is used to artificially introduce sample diversity
+ by applying random, transformations to the training images, such as rotation and horizontal flipping. 
+This helps expose the model to different aspects of the training data and reduce overfitting
+
+ PREPROCESSING IN TRANSFER-Preprocessing helps to normalize the data, remove irrelevant or redundant information, 
+and transform the data into a format that is compatible with the model.
+is a library of  pre-trained models for Natural Language Processing (NLP). 
+
+pytorch transformer-to train moddel in nlp
+
+..
+ColorJitter ... Randomly change the brightness, contrast, saturation and hue of an image.
+
+VGG-16 is a convolutional neural network that is 16 layers deep.

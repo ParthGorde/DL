@@ -1,0 +1,49 @@
+ MinMax Scaler- bring the data within the given range, usually of 0 to 1
+
+The train_test_split() -method is used to split our data into train and test set
+20% test 80% train data.
+
+recnstruction error- The difference between the original input 
+and the reconstruction output in the autoencoder 
+
+that deep learning-based reconstruction methods improve the quality of reconstructed images
+
+anaolmy score-this score indicate how ananolmous data pt are
+cal diff  between actual predicted 0-100
+TECHNIQUE
+SVM-SVMs can be used for anomaly detection by training on normal data only.
+
+AUTOENCODER-Anomalies can be detected by comparing the input and output of the autoencoder. If the reconstruction error
+ is high, it indicates the presence of an anomaly
+
+ANOMALY-identify patterns or data points that deviate significantly from the norm or expected behavior..
+
+ECG-This dataset contains the ECG readings of heart patients
+
+Novelty detection is when you have new data (i.e. OOD) and you want to know whether or not it is in-distribution. 
+you trained on. Anomaly detection is when you test your data to see if it is different than what you trained the model
+-identifying new or unseen patterns in the data that differ from the patterns seen during training. 
+
+DROPOUT random nodes are drop out
+
+DENSE LAYER-
+A dense layer is a classic fully connected neural network layer : each neuron receive ip from previous node
+
+RELU -A rectified linear unit (ReLU) is an activation function that introduces the property of non-linearity value betn 0 and 1
+
+MSE-Computes the mean of squares of errors between labels and predictions.
+KEARAS OPTIMIZER-sgd adam,
+bce-calculate the cross-entropy loss between the predicted classes and the true classes
+.
+BINARYLABERIZER-accept categorical data and return numpy arr
+classifcation report-compute accuracy of model base on value of confusion matrix
+
+
+Why use Labelbinarizer?
+Label Binarizer, a utility class provided by the scikit-learn library, is a powerful tool used to convert categorical labels into binary vectors
+
+sgd- it computes the gradient of a random subset of the data at each iteration
+
+encoder-convert ip into reprentation 
+
+decoder-reconstruct ip form code bav=ck into original dimention

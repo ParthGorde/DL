@@ -1,0 +1,202 @@
+Ass-1
+
+What is Deep Learning?
+
+Deep Learning is a subfield of Machine Learning that involves the use of neural
+ networks to model and solve complex problems
+
+LIB USED IN DL?
+
+NUMPY-mathematical operations on arrays and matrices
+
+SCIPY- useful in solving many mathematical equations and algorithms
+
+SCIKIT-LEARN-designed for data modeling and developing machine learning ALGO use for classifcation regression prb
+
+SK-LEARN-use in  classification, regression, clustering
+
+
+THEANO-evaluation of mathematical expressions and matrix
+calculations 
+
+TENORFLOW-building DL and ML models and neural networks
+PYTORCH- image recognition and language processing.for implementing neural network
+
+KERAS-to training neural networks with a little code
+
+PANDAS-use for data analysis and manipulation functionality by grouping, integrating, and re-indexing
+
+MATPLOTLIB-data visualization library that’s used for making plots and graphs
+
+SEABORN-to draw accurate and informative statistical graphs. 
+
+dataset-MNINST data.cifar10
+model-bert
+extenson-tf
+lib-tensorflow.io-Dataset, streaming
+tensorflow.model analysis-A library for deep analysis of model results 
+
+KEARAS-Tuner-hyperparameter optimization framework find best hyperparameter value for
+ ur model
+
+KEARAS-NLP-use for creating  sequential and functional api
+
+KERAS-CV-for img classificaion obj detection
+
+AUTO-KERAS-make use of api such as img classifier to solve ml prb
+use to select base model
+
+MODEL-OPTIMIZATION-
+improving the performance of a  model by adjusting its parameters, 
+
+SEQUENTIAL-n this model, the data flow from one layer to another layer. The flow of data
+ is continued until the data reaches the final layer
+
+Hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a 
+learning algorithm
+
+training-occurs over epochs, and each epoch is split into batches
+
+A PyTorch tensor is a multi-dimensional matrix that contains elements of a single datatype
+
+ probabilistic prograpyro-programming library built on PyTorch. It can represent probability distribution and scales to large data sets
+
+ASS-2
+
+ feedforward is that the flow of information takes place in the forward direction,
+
+Input Layer:
+The input layer accepts the input data and passes it to the next layer.
+
+Hidden Layers:
+One or more hidden layers that process and transform the input data. 
+Each hidden layer has a set of neurons connected to the neurons of the previous and next layers. 
+These layers use activation functions, such as ReLU or sigmoid, to introduce non-linearity into the network, allowing it to learn and model more complex relationships between the inputs and outputs.
+
+Output Layer:
+The output layer generates the final output
+
+EG-
+ Stock Market Prediction
+thermometer
+
+cost fun-the cost function in a feedforward network is used to evaluate how well the network is performing.
+
+loss fun-A neural network’s loss function is used to identify if the learning process needs to be adjusted.
+cal diff between ctual and predicted
+
+mse- evaluating the performance of a machine learning model, including feedforward neural networks. 
+It measures the average squared difference between the predicted and actual values.
+
+epoch -is a single iteration though the training data
+
+The MNIST data set of handwritten digits has a training set of 70,000 examples
+CIFAR-10 is an established computer-vision dataset used for object recognition with 80 million tiny img datset.
+ 
+optimizer- that adjust the model's parameters during training to minimize a loss function.
+
+DIFF-Sigmoid is used for binary classification methods where we only have 2 classes, while SoftMax applies to multiclass problem
+
+Flattening a dataset refers to the process of converting a multi-dimensional dataset into a one-dimensional array..
+
+Ass3-
+
+Cross-entropy loss, or log loss, measures the performance of a classification model whose output is a probability value between 0 and 1
+
+
+ IMG CLASSIFICATION PRB-the task of assigning a label to an image from a predefined set of categories. 
+categoring img under specific  label
+
+WHY DL -use to  achieve a higher accuracy result compared with traditional
+
+for img classification-Convolutional Neural Networks (CNNs) ann
+
+A Convolutional Neural Network (CNN) is a type of deep learning algorithm that is particularly well-suited for image recognition and processing tasks
+
+convolutional layers-the input image to extract features
+pooling layers, -, reducing the spatial dimensions 
+fully connected layers-a prediction or classify the image
+
+
+kernel-using a 'kernel' to extract certain 'features' from an input image.
+
+ These layers apply filters to input images to extract relevant features. The filters are learned during the training process to identify patterns and structures in the data.
+The kernel filter slides over theThe kernel filter slides over the input matrix in order to get the output vector feature map.
+
+ An autoencoder is an unsupervised learning technique for neural networks that perform (encoding) of unlabel data by training model
+
+application -img compresion dimention red
+
+Single layer perceptron- is a simple Neural Network which contains only one layer
+
+What is single layer perceptron and multi layer perceptron?
+
+A Multi Layer Perceptron (MLP) -contains one or more hidden layers (apart from one input and one output layer). 
+
+Gradient Descent- is an iterative process that finds the minima of a function.
+
+back propgation-The algorithm calculates the gradient of the error function  fed back to netwoork
+continuous bag of word-to 
+autoencoder-unsupervised -denoising
+
+gradient decent-gradient become small as we go backward during backward prop and cause earlier layer to learn slowly
+
+The Sigmoid Function -curve looks like a S-shape.value betn 0 and 1
+
+tanh- is also like logistic sigmoid but better. The range of the tanh function is from (-1 to 1)
+
+leaky relu-solving dying relu prb and has constant slope
+
+erelu has small slope for negative value
+
+What is LSTM and why is used?
+Long Short-Term Memory (LSTM) Networks - 
+LSTMs-recurrnt neural network are predominantly used to and classify sequential data
+anonomus detection-unsupervised
+
+Denoising autoencoders are a neural network that can remove noise from images. 
+h-hash fun
+ to categorical-class vector (integers) to binary class matrix. E
+ why-reshape your data to fit the model requirements
+.
+squueze- removes one-dimensional entry from the shape
+ encoder-encryption
+
+ rcparam-style sheets portable between different machines without having to worry about dependencies 
+
+scaler.fit-this means the training data will be used to estimate the minimum and maximum observable values. 
+
+kmeans-clustering tries to group similar kinds of items in form of clusters.
+
+Gensim -is an open-source library for unsupervised topic modeling, document indexing, retrieval by similarity
+, 
+backend fun- This function is used to return an instance of the current backend being used for the execution of the low-level operations and computations required for training 
+
+vectorize-the process of converting text data to numerical vectors.
+
+adam- is an optimization algorithm that can be used instead of the classical stochastic gradient descent procedure to update network weights
+
+context -throwlight on meaning of word
+dim-dimention
+
+why feedforward-sequential
+
+momentum-product of the mass of a particle and its velocity.
+
+why relu-postive value
+
+clipnorm-parameters that can be used to control clipping the gradients.
+ 
+ Nesterov- Momentum is a technique that can improve the convergence speed of stochastic gradient descent,
+
+ argmax-returns index of the max element of the array in a particular axis.
+What is enumerate () in Python?
+
+ enumerate- built-in function in python that allows you to keep track of the number of iterations (loops) in a loop.
+
+wt decay -is a form of regularization that penalizes large weights in the network. 
+
+ verbose-This flag allows you to write regular expression
+undercomplete bottleneck layer
+keras-convert 32 bit into 64 bit
+rnn 
